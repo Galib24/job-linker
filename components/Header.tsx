@@ -23,8 +23,9 @@ function Header() {
                         <Image
                             src='https://i.ibb.co/HhdZX8L/adiq.png'
                             alt='picture of author'
-                            width={135}
+                            width={120}
                             height={75}
+                            
                             className='cursor-pointer'
                         >
 
