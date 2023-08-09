@@ -21,10 +21,11 @@ function Header() {
                 <div className='flex items-center justify-between h-full px-4 w-full'>
                     <Link href='/'>
                         <Image
-                            src='https://i.ibb.co/HhdZX8L/adiq.png'
+                            src='https://i.ibb.co/jzBmL7w/jhkf.png'
                             alt='picture of author'
-                            width={135}
+                            width={120}
                             height={75}
+                            style={{borderRadius: '10px 50px 50px 10px'}}
                             className='cursor-pointer'
                         >
 
@@ -88,7 +89,7 @@ function Header() {
 
                     {/* small device pictures */}
                     <Image
-                        src='https://i.ibb.co/HhdZX8L/adiq.png'
+                        src='https://i.ibb.co/jzBmL7w/jhkf.png'
                         alt='picture of author'
                         width={135}
                         height={75}
