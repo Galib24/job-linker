@@ -1,9 +1,13 @@
+import Button from '@/components/Button';
 import React from 'react';
-
+import { Toaster } from 'react-hot-toast';
 const Home = () => {
-  return <div className='text-7xl text-blue-500'>Home
-  <h1 className='text-2xl text-center font-bold'>This is Likhon</h1>
-
+  return <div>
+    <div className=''>
+      <h1 className='text-6xl text-center'>Home Section</h1>
+      <Button></Button>
+      <Toaster></Toaster>
+    </div>
   </div>;
 };
 
