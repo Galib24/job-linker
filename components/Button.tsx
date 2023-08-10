@@ -8,7 +8,7 @@ const Button = () => {
     }
     return (
         <div>
-            <button onClick={clickMe} className="px-3 py-2 md:ml-96 mt-10 text-white bg-blue-500 rounded-lg">Click Me </button>
+            <button onClick={clickMe} className="px-3 py-2 md:ml-96 mt-10 text-white bg-red-400 rounded-lg">Click Me </button>
             
         </div>
     );
